@@ -23,7 +23,7 @@ public class AppTest
         ChatGPT chat = new ChatGPT();
         
         int expected = 3;
-        int result = (int) chat.binaryInvoke("java.lang.Integer",  "add", "int", "6", "int", "-3");
+        int result = (int) chat.binaryInvoke("java.lang.Integer",  "sum", "int", "6", "int", "-3");
         assertTrue(expected == result);
     }
 }

@@ -143,6 +143,6 @@ public class ChatGPT {
         } catch (InvocationTargetException ex) {
             Logger.getLogger(ChatGPT.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return 3;
+        return null;
     }
 }
